@@ -1,0 +1,111 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <!-- css  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/95a1f26c34.js" crossorigin="anonymous"></script>
+  <!-- bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <div id="h1head">
+    <img src="https://deepthought.education/assets/images/logo/logo.svg" alt="deep thought">
+  </div>
+
+
+
+
+
+  <div id="heading" align="center">
+    <div class="taskname">Task 1</div>
+    <div class="mainheading">You Are Taking Challenge Of New Project</div>
+    <div>
+      <button class="btn odd" data-toggle="collapse" data-target="#at1">Info <span class="arrow-odd"><i class="fa-solid fa-chevron-down"></i></span>
+      </button>
+      <div id="at1" class="collapse">
+        <textarea readonly id="w3review1" name="w3review" rows="10" cols="40">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
+        </textarea>
+      </div>
+
+
+      <button class="btn even" data-toggle="collapse" data-target="#at2">Feedback<span class="arrow-odd"><i class="fa-solid fa-chevron-down"></i></span></button>
+      <div id="at2" class="collapse">
+        <textarea id="w3review2" name="w3review" rows="10" cols="40" placeholder="Enter Your Thoughts:">Enter Your Thoughts:
+        </textarea>
+        <button type="button" class="btn btn-primary subbtn">Submit</button>
+        <div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+    <div>
+
+      <button class="btn odd" data-toggle="collapse" data-target="#at3">Zoom<span class="arrow-odd"><i class="fa-solid fa-chevron-down"></i></span></button>
+      <div id="at3" class="collapse">
+        <img id="pic" src="https://i.stack.imgur.com/5W40s.png" alt="letter image" width="30%">
+        <div class="zoom">
+          <button type="button" class="btn btn-outline-light plusminus" onclick="zoomOut()">-</button>
+          <button type="button" class="btn btn-outline-dark plusminus" onclick="zoomIn()">+</button>
+        </div>
+      </div>
+
+
+
+      <button class="btn even" data-toggle="collapse" data-target="#at4">Image<span class="arrow-odd"><i class="fa-solid fa-chevron-down"></i></span></button>
+      <div id="at4" class="collapse">
+        <img id="pic2"
+          src="https://bournetocode.com/projects/GCSE_Computing_Fundamentals/pages/img/computer-network.jpg"
+          alt="comp image" width="30%">
+
+      </div>
+
+
+
+      <div>
+        <button class="btn odd" data-toggle="collapse" data-target="#at5">Audio<span class="arrow-odd"><i class="fa-solid fa-chevron-down"></i></span></button>
+        <div id="at5" class="collapse">
+          <figure>
+            <audio controls src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3">
+            </audio>
+            <p class="para">This is just a audio. I took from Internet
+            </p>
+          </figure>
+        </div>
+
+
+
+        <button class="btn even" data-toggle="collapse" data-target="#at6">Video<span class="arrow-odd"><i class="fa-solid fa-chevron-down"></i></span></button>
+        <div id="at6" class="collapse">
+
+          <video class="video" width="320" height="240" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/ogg">
+          </video>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <button type="button" class="btn btn-primary lastbtn">Next</button>
+
+
+
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>

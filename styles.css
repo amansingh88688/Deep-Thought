@@ -1,0 +1,153 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+#h1head {
+    background-color: rgb(230, 230, 230);
+    padding: 13px;
+    box-shadow: 0 3px rgb(183, 183, 183);
+}
+
+.taskname {
+    margin-bottom: 30px;
+}
+
+#heading {
+    padding-top: 50px;
+}
+
+.mainheading {
+    background-color: #0029ff;
+    color: white;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.odd {
+    width: 300px;
+    /* padding: 50px; */
+    margin-top: 50px;
+    margin-left: 30px;
+    background-color: rgb(16, 15, 15);
+    color: white;
+    
+    font-family: sans-serif;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+.even {
+    width: 300px;
+
+    /* padding: 50px; */
+    margin-top: 50px;
+    margin-left: 130px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    
+    font-family: sans-serif;
+    border-radius: 5px 5px 5px 5px;
+
+}
+
+
+.collapse {
+    width: 300px;
+}
+
+
+
+#w3review1 {
+    border-radius: 15px;
+    border-color: gray;
+    box-shadow: 3px 3px gray;
+    margin-top: 20px;
+    width: 250px;
+    resize: none;
+    /* border:grey; */
+    margin-left: 30px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+#w3review2 {
+    border-radius: 15px;
+    border-color: gray;
+    box-shadow: 3px 3px gray;
+    margin-top: 20px;
+    width: 250px;
+    resize: none;
+    /* border:grey; */
+    margin-left: 260px;
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+.subbtn {
+    margin-left: 430px;
+    margin-top: 10px;
+    background-color: #0029ff;
+    border-radius: 20px;
+}
+
+
+#pic {
+    width: 200px;
+    margin-left: 20px;
+}
+
+#pic2 {
+    width: 250px;
+    margin-left: 250px;
+}
+
+.zoom {
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: tra
+}
+
+.plusminus2 {
+    background-color: black;
+    opacity: 70%;
+    border-radius: 0px;
+}
+
+#at5{
+    margin-left: 30px;
+padding-top: 25px;
+}
+.para{
+    border: solid;
+    border-color : #535353;
+    box-shadow: 3px 3px #535353;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.video{
+    margin-left: 260px;
+    width: 250px;
+    height: 200px;
+}
+
+
+.lastbtn{
+    margin-left: 1100px;
+    margin-top:80px;
+    background-color:#0029ff;
+    border-radius: 10px;
+}
+
+.arrow-odd{
+    padding-left: 130px;
+}
